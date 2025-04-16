@@ -1,4 +1,5 @@
 
+import { DiPython } from 'react-icons/di';
 import {
   logo,
   backend,
@@ -13,6 +14,7 @@ import {
   project2,
   project3,
   mysql,
+  python,
   express,
   aws,
   mui,
@@ -36,8 +38,8 @@ import {
 
 
 // Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
-
+import petronas from "../assets/company/petronas.png";
+import tata from "../assets/company/tata.png";
 
 export const navLinks = [
 
@@ -143,7 +145,10 @@ const technologies = [
     name: "MySql",
     icon: mysql,
   },
-
+  {
+    name: "Python",
+    icon: python,
+  },
   {
     name: "git",
     icon: git,
@@ -154,16 +159,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    title: "Automation Intern",
+    company_name: "Tata Steel BSL",
+    icon: tata,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "Jan 2020 - Jun 2020",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developed Python-based automated coil car simulation using Turing Machine model.",
+      "Integrated SQL databases for simulating coil operations remotely.",
+      "Collaborated across teams to design robust automation systems.",
+      "This simulation was performed on Turing machine simulator coded in Python and SQL.",
+    ],
+  },
+  {
+    title: "Data Analytics Intern",
+    company_name: "Petronas Lubricants International",
+    icon: petronas,
+    iconBg: "#383E56",
+    date: "Feb 2024 - Sept 2024",
+    points: [
+      "Automated daily sales data retrieval from SAP using Python.",
+      "Developed Power BI dashboards for visualizing real-time sales insights.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Reduced manual reporting time by 80% with automated data pipelines and reports.",
+      "This streamlined process not only saved time but also ensured accuracy in the reporting, allowing for quick decision-making based on real-time data.",
+      " Additionally, the Power BI dashboard provided visual representations that made it easier for personnel to interpret and act upon the information presented.",
     ],
   },
 ];
@@ -197,12 +217,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "TRAVELOGY",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Travelogy is a website created to help users locate well-known tourist destinations. In essence, it is a tourist recommendation system that informs the user of how many visitors came to a particular location during a particular year. The locations are categorised into groups like beaches, forts,historic locations, etc.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
@@ -223,9 +243,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "GearXpert",
+    name: "Employee Complaint Software",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "The main goal is to develop a web-based system for the company to maintain as well as improve the quality of customer service. The system manages information about the services offered to the customers. This system allows customers to make complaints online about various problems faced by them during their interaction with the company, be it with any service or product.",
     tags: [
       {
         name: "react",
@@ -244,12 +264,12 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Employee Attrition Prediction (HR Analytics)",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "The Employee Attrition Prediction project focuses on using machine learning techniques to predict whether an employee is likely to leave an organization. It falls under the broader category of HR Analytics and helps companies identify at-risk employees before they decide to leave, allowing HR teams to take proactive steps to reduce turnover and improve retention.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
