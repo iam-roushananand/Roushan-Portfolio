@@ -43,15 +43,18 @@ npm run dev
 
 Visit: http://localhost:5173/
 
-🧩 Troubleshooting
+### 🧩 Troubleshooting
 # Use correct Node version
+```bash
 nvm install 18
 nvm use 18
+```
 
 # Clear and reinstall dependencies
+```bash
 rm -rf node_modules package-lock.json
 npm install
-
+```
 
 ⭐ Star this repo if you like it!
 
