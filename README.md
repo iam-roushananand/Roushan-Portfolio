@@ -34,10 +34,23 @@ A modern, interactive 3D portfolio website built with React and Three.js to show
 
 ### Quick Start
 
+1. Clone the repository:
 ```bash
 git clone https://github.com/huzaifahmedz/Huzaif-Ahmed-Portfolio.git
+```
+
+2. Navigate to the project directory:
+```bash
 cd Huzaif-Ahmed-Portfolio
+```
+
+3. Install dependencies:
+```bash
 npm install
+```
+
+4. Start the development server:
+```bash
 npm run dev
 ```
 
