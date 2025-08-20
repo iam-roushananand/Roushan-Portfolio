@@ -4,7 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
-import menu from "./menu.svg";
+import menu from "./close.svg";
 import close from "./close.svg";
 import gsap from './tech/gsap.png'
 import framer from './tech/framer.png';
@@ -29,6 +29,19 @@ import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
+import security from "./tech/security.png";
+import docker from "./tech/docker.png";
+import kubernetes from "./tech/kubernetes.png";
+import terraform from "./tech/terraform.png";
+import ansible from "./tech/ansible.png";
+import jenkins from "./tech/jenkins.png";
+import linux from "./tech/linux.png";
+import prometheus from "./tech/prometheus.png";
+import grafana from "./tech/grafana.png";
+import cyberark from "./tech/cyberark.png";
+import beyondtrust from "./tech/beyondtrust.png";
+import python from "./tech/python.png";
+import bash from "./tech/bash.png";
 
 export {
   logo,
@@ -62,5 +75,17 @@ export {
   redux,
   tailwind,
   threejs,
-
+  security,
+  docker,
+  kubernetes,
+  terraform,
+  ansible,
+  jenkins,
+  linux,
+  prometheus,
+  grafana,
+  cyberark,
+  beyondtrust,
+  python,
+  bash,
 };
