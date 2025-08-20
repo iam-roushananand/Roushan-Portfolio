@@ -146,7 +146,7 @@ const experiences = [
   {
     title: "DevOps Engineer",
     company_name: "Persistent Systems",
-    icon: Persistent,
+    icon: persistent,
     iconBg: "#383E56",
     date: "Feb 2025 - present",
     points: [
