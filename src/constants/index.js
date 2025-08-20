@@ -35,21 +35,26 @@ import {
 } from '../assets'
 
 
-// Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
+// Import Persistent Systems separately
+import persistent from "../assets/company/persistent.png";
 
 
 export const navLinks = [
-
-
   {
     id: "about",
     title: "About",
-    
+  },
+  {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -57,113 +62,99 @@ export const navLinks = [
   },
 ];
 
+
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "DevSecOps Engineer",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Cloud Infrastructure Engineer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "CI/CD Pipeline Specialist",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
-    icon: creator,
+    title: "Monitoring & Security (IAM/PAM) ",
+    icon: security,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
-
- 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Material Ui",
-    icon: mui,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Express Js",
-    icon: express,
-  },
-  {
     name: "AWS",
     icon: aws,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Docker",
+    icon: docker,
   },
   {
-    name: "MySql",
-    icon: mysql,
+    name: "Kubernetes",
+    icon: kubernetes,
   },
-
   {
-    name: "git",
+    name: "Terraform",
+    icon: terraform,
+  },
+  {
+    name: "Ansible",
+    icon: ansible,
+  },
+  {
+    name: "Jenkins",
+    icon: jenkins,
+  },
+  {
+    name: "Git & GitHub",
     icon: git,
   },
- 
-
+  {
+    name: "Linux",
+    icon: linux,
+  },
+  {
+    name: "Prometheus",
+    icon: prometheus,
+  },
+  {
+    name: "Grafana",
+    icon: grafana,
+  },
+  {
+    name: "CyberArk",
+    icon: cyberark,
+  },
+  {
+    name: "BeyondTrust",
+    icon: beyondtrust,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Shell Scripting",
+    icon: bash,
+  },
 ];
+
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    title: "DevOps Engineer",
+    company_name: "Persistent Systems",
+    icon: Persistent,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "Feb 2025 - present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built CI/CD pipelines with Jenkins and GitHub Actions.",
+      "Containerized applications with Docker and Kubernetes.",
+      "Deployed AWS infrastructure using Terraform and Ansible.",
+      "Collaborated with teams to improve release cycles and reliability.",
+      "Implemented IAM and PAM security with CyberArk & BeyondTrust.",
     ],
   },
 ];
@@ -171,26 +162,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
+      "Roushan streamlined our CI/CD pipeline and integrated security checks at every stage. His DevSecOps approach greatly reduced vulnerabilities before production.",
+    name: "Yash Deukle",
+    designation: "TechOps Engineer",
+    company: "NCS Group",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+      "Thanks to Roushan’s automation with Terraform and Kubernetes, our deployments became faster and more secure. He brought real efficiency to our DevOps processes.",
+    name: "Kanishka",
+    designation: "IT Specialist",
+    company: "NTT Data",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Roushan’s expertise in IAM and PAM with CyberArk and BeyondTrust helped us strengthen our compliance and access security. A true DevSecOps professional!",
+    name: "Rahul Anand",
+    designation: "IT Manager",
+    company: "Taj Hotel, Patna",
     image: thirdTestimonial,
   },
 ];
