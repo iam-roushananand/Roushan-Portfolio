@@ -271,5 +271,3 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ];
-
-export { services, technologies, experiences };
