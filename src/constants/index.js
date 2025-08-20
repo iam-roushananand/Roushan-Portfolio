@@ -1,4 +1,3 @@
-
 import {
   logo,
   backend,
@@ -16,7 +15,6 @@ import {
   express,
   aws,
   mui,
-  
   gsap,
   framer,
   figma,
@@ -32,6 +30,19 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+  security,
+  docker,
+  kubernetes,
+  terraform,
+  ansible,
+  jenkins,
+  linux,
+  prometheus,
+  grafana,
+  cyberark,
+  beyondtrust,
+  python,
+  bash,
 } from '../assets'
 
 
